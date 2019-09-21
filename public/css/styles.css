@@ -1,0 +1,338 @@
+html {
+    height: 100%;
+}
+
+body {
+    /*background: rgb(236, 230, 207) !important;*/
+    background: #f8f5f2 !important;
+    font-family: "Lexend Deca", sans-serif;
+
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+.nav-link {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.active,
+.nav-link:hover {
+    background-color: #666677;
+}
+
+/*navbarBot.blade.php -> page footer*/
+.page-footer {
+    color: white;
+    width: 100%;
+}
+
+/*menu.blade.php -> caption */
+.figure-caption {
+    font-size: 90%;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/*menu.blade.php -> image */
+.img-thumbnail {
+    padding: 3px;
+    border: 3px solid rgb(110 48 168);
+    border-bottom: 0px;
+    border-radius: 0;
+    background-color: rgb(255 238 109);
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* menu.blade.php -> caption border */
+.fig-thumbnail {
+    padding: 1rem;
+    border: 2px solid rgb(110 48 168);
+    border-top: 0px;
+    border-radius: 0;
+    color: white;
+}
+
+/* about.blade.php -> left side*/
+.sideBarContent {
+    margin-bottom: 10px;
+    min-height: 180px;
+    background-color: #f8f9fa;
+    text-align: center;
+    border: 2px solid rgb(110 48 168);
+    color: black;
+    font-size: 25px;
+}
+
+/* about.blade.php -> right side*/
+.mainContent {
+    margin-bottom: 10px;
+    min-height: 330px;
+}
+
+/* about.blade.php -> logo footer */
+.logoFooter {
+    color: black;
+    background-color: #f8f9fa;
+    border: 2px solid rgb(110 48 168);
+}
+
+/* layout */
+.appetizers {
+    margin-bottom: 10px;
+    min-height: 180px;
+    max-width: 400px;
+    margin: auto; /*horizontally center the element within its container*/
+    /*background-color: #f8f9fa;*/
+    text-align: left;
+    /*border: 2px solid rgb(110 48 168);*/
+    color: black;
+    font-size: 20px;
+}
+
+.flavors {
+    margin-bottom: 10px;
+    min-height: 180px;
+    max-width: 400px;
+    margin: 0 auto;
+    /*background-color: #f8f9fa;*/
+    /*border: 2px solid rgb(110 48 168);*/
+    color: black;
+    font-size: 20px;
+}
+
+/*used for salads, sides, dips, kids, specialtydrinks, beverages*/
+.salads {
+    margin-bottom: 10px;
+    min-height: 180px;
+    max-width: 400px;
+    margin: 0 auto;
+    /*background-color: #f8f9fa;*/
+    text-align: left;
+    /*border: 2px solid rgb(110 48 168);*/
+    color: black;
+    font-size: 20px;
+}
+
+.specialties {
+    margin-bottom: 10px;
+    min-height: 180px;
+    max-width: 500px;
+    margin: 0 auto;
+    /*background-color: #f8f9fa;*/
+    text-align: left;
+    /*border: 2px solid rgb(110 48 168);*/
+    color: black;
+    font-size: 20px;
+}
+
+/* menu border*/
+.menuBorder {
+    margin-bottom: 10px;
+    min-height: 180px;
+    background-color: #f8f9fa;
+    text-align: center;
+    border: 2px solid rgb(110 48 168);
+    margin: auto;
+    width: 50%;
+}
+
+.menuTitleBorder {
+    text-align: center;
+    border: 2px solid rgb(110 48 168);
+    margin: auto;
+    width: 50%;
+    background: rgb(255, 238, 109);
+}
+
+/* menu border appetizers*/
+.appetizerBorder1 {
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    min-height: 180px;
+    background-color: #f8f9fa;
+    text-align: center;
+    border: 2px solid rgb(110 48 168);
+    margin: auto;
+    width: 100%;
+    border-right: 0px;
+}
+
+.appetizerBorder2 {
+    margin-bottom: 10px;
+    min-height: 180px;
+    background-color: #f8f9fa;
+    text-align: center;
+    border: 2px solid rgb(110 48 168);
+    margin: auto;
+    width: 100%;
+    border-left: 0px;
+}
+
+.menuTitleBorderA {
+    text-align: center;
+    border: 2px solid rgb(110 48 168);
+    margin: auto;
+    width: 100%;
+    background: rgb(255, 238, 109);
+}
+
+.noPadding1 {
+    padding-right: 0px;
+}
+
+.noPadding2 {
+    padding-left: 0px;
+}
+
+.flavorBorder1 {
+    margin-bottom: 10px;
+    min-height: 180px;
+    background-color: #f8f9fa;
+    text-align: center;
+    border: 2px solid rgb(110 48 168);
+    margin: auto;
+    width: 100%;
+    border-right: 0px;
+}
+
+.flavorBorder2 {
+    margin-bottom: 10px;
+    min-height: 632px;
+    background-color: #f8f9fa;
+    text-align: center;
+    border: 2px solid rgb(110 48 168);
+    margin: auto;
+    width: 100%;
+}
+
+.flavorBorder3 {
+    margin-bottom: 10px;
+    min-height: 632px;
+    background-color: #f8f9fa;
+    text-align: center;
+    border: 2px solid rgb(110 48 168);
+    margin: auto;
+    width: 100%;
+    border-left: 0px;
+}
+
+.noPadding3 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/*--------------------------------------------------*/
+
+.wings {
+    margin-bottom: 10px;
+    min-height: 180px;
+    max-width: 400px;
+    margin: 0 auto;
+    /*background-color: #f8f9fa;*/
+    text-align: left;
+    /*border: 2px solid rgb(110 48 168);*/
+    color: black;
+    font-size: 20px;
+}
+
+.wingsBorder1 {
+    margin-bottom: 10px;
+    min-height: 180px;
+    padding-bottom: 10px;
+    background-color: #f8f9fa;
+    text-align: center;
+    border: 2px solid rgb(110 48 168);
+    margin: auto;
+    width: 100%;
+    border-right: 0px;
+}
+
+.wingsBorder2 {
+    margin-bottom: 10px;
+    min-height: 180px;
+    background-color: #f8f9fa;
+    text-align: center;
+    border: 2px solid rgb(110 48 168);
+    margin: auto;
+    width: 100%;
+    border-left: 0px;
+}
+
+.wingsPack {
+    margin-bottom: 10px;
+    min-height: 180px;
+    max-width: 400px;
+    margin: 0 auto;
+    /*background-color: #f8f9fa;*/
+    text-align: left;
+    /*border: 2px solid rgb(110 48 168);*/
+    color: black;
+    font-size: 20px;
+}
+
+.wingsPackBorder1 {
+    margin-bottom: 10px;
+    min-height: 180px;
+    padding-bottom: 224px;
+    background-color: #f8f9fa;
+    text-align: center;
+    border: 2px solid rgb(110 48 168);
+    margin: auto;
+    width: 100%;
+    border-right: 0px;
+}
+
+.wingsPackBorder2 {
+    margin-bottom: 10px;
+    min-height: 180px;
+    background-color: #f8f9fa;
+    text-align: center;
+    border: 2px solid rgb(110 48 168);
+    margin: auto;
+    width: 100%;
+    border-left: 0px;
+}
+
+/*index.blade.php*/
+
+.foreground {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+        url(/images/official_img/lemon_pepper.jpeg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+}
+
+.foreground1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+        url(/images/nature.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+
+.title {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: auto;
+}
